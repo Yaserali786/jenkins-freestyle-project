@@ -1,3 +1,3 @@
 echo 'Hello world!'
 echo 'Yaser Ali'
-exit 1
+sleep  10
