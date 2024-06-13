@@ -4,7 +4,7 @@ pipeline {
         stage ('Clean') {
             steps {
                 cleanWs()
-                git url: 'https://github.com/Yaserali786/jenkins-freestyle-project', branch: 'main'
+             --   git url: 'https://github.com/Yaserali786/jenkins-freestyle-project', branch: 'main'
             }
         }
         stage ('Run script') {
